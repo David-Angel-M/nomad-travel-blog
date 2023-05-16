@@ -30,7 +30,9 @@ SECRET_KEY = 'SECRET_KEY'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['nomad-travel-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['nomad-travel-blog.herokuapp.com', 'localhost',
+                 '8000-david-angel-m-nomad-trav-npetjh07ru.us2.codeanyapp.com']
+# Delete codeanyapp host
 
 
 # Application definition
@@ -44,6 +46,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'nomad',
 ]
 
@@ -131,7 +134,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
-#STATICFILES_DIRS = [os.path.join(BASE_DIR,'static#')]
+#STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
