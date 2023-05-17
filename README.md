@@ -1,39 +1,137 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PORTFOLIO PROJECT - 4
 
-Welcome,
+# NOMAD - TRAVEL BLOG
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## PURPOSE
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Nomad is a travel blog that allows users to share experiences in their travels.
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## FINAL RESULT
 
-`python3 -m http.server`
+* AmIResponsive goes here
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## THE MAIN IDEA
 
-`http_server`
+My initial idea for the project was to create a travel blog where users can share their travels and also comment in others posts.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## FEATURES
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### The website consists of the following:
 
-To log into the Heroku toolbelt CLI:
+1 single page website with a header (title), the body consist of Score, Wrong Answers on the left hand side of the page and the Rules of the game on the right hand side of the page. Main content has 2 different colours (white and grey),text in black and footer on the bottom of the page with a "Thank you for playing this game" text.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## AS A USER
 
----
+* I want the game to have higher difficulty.
+* I want to easily understand the main purpose of the game.
+* I want random choices of words (10000).
+* I want to be able to see how many attemps I have left.
+* I want the option to play again.
 
-Happy coding!
+
+## CONTENTS
+
+### UX/UI
+
+This website was created to show my knowledge of HTML, CSS and JavaScript to provide users with visual and interaction content. The site should be easy and simple to navigate. The site should be easy to read and to understand the purposed of it.
+
+#### Site Goals:
+
+To put in practise that I understand the basic skills to used HTML, CSS and JavaScript. To give users an easy way to understand and easy way to navigate the website. To give users enough information to come back to the website for them to use it again and again. To make the site easily accessible from any device.
+
+
+## WIREFRAMES
+
+wireframes goes here
+
+
+## TYPOGRAPHY
+
+I chosen "fantasy", sans-serif as my Font-family.
+
+
+## TESTING
+
+The site has been tested through different device sizes. Tested the website in different browsers.
+
+
+## DEVICES
+
+I've tested responsiveness and functionality on the following devices and browsers: Android: Samsung Galaxy S8+ Samsung Galaxy S20 Ultra Galaxy Fold Samsung Galaxy A51/71 Apple: Ipad mini Ipad Air Iphone SE Iphone XR Iphone 12 PRO laptops: MacBook Pro 16" Browsers: Chrome Firefox Safari
+
+
+## VALIDATORS
+
+* CSS code on Jigsaw and it passed. 
+* HTML code on W3 and it passed. 
+* JavaScript code on BeautifyTools and it passed.
+* Python code through Code Institute own PEP8 and it passed.
+
+
+#### See below for Validator results:
+
+* images go here
+
+
+## LIGHTHOUSE
+
+Lighthouse checked and passed.
+
+#### See below for results on Mobile and Desktop:
+
+* image goes here
+
+
+## SOLVED BUGS AND ERRORS
+
+Had some warning ES6 errors but all fixed.
+
+## UNSOLVED BUGS AND ERRORS
+
+None
+
+
+## FUNCTIONALITY
+
+All buttons have been hovered over and clicked on to ensure accessibility. Pages all load correctly on all device screen sizes.
+
+
+## TECHNOLOGIES USED
+
+* HTML.
+* CSS.
+* JavaScript.
+* Python + Django
+* 
+* 
+
+
+## PROGRAMS USED
+
+* GIT For version control, commiting and pushing to github. 
+* CodeAnywhere The IDE used to code this website. 
+* GITHUB Used to store repositories, files and images pushed from gitpod. 
+* AM I RESPONSIVE. Used to test responsiveness of the website at different screen sizes. 
+* CHROME DEVELOPER TOOLS For checking compatibilty, troubleshooting and editing code.
+
+
+## CREDITS
+
+* Code Institute walkthroughs and material.
+* W3Schools.
+* YouTube. 
+* Stackoverflow. 
+* Student care.
+* Tutors, mentor (Antonio Rodriguez) and the Slack community.
+* Last but not least, family and friends.
+
+
+## ACKNOWLEDGMENTS
+
+This blog was created for my PP4 Project for the Full Stack Software Developer program with Code Institute.
+
+<center>David Angel, 2022/2023</center>
